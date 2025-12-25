@@ -3,8 +3,12 @@
     <meta name="description" content="Comilla Zilla School Science Project Club - One of the most successful clubs of CZS">
 </svelte:head>
 
+<script>
+	import { base } from '$app/paths';
+</script>
+
 <div class="grow text-center text-white text-3xl font-semibold mt-25">
-    <img src="/logo.svg" alt="CZSSPC Logo" class="rounded-4xl mx-auto w-32 h-32 mb-10 shadow-lg hover:scale-105 transition-transform duration-300"/>
+    <img src="{base}/logo.svg" alt="CZSSPC Logo" class="rounded-4xl mx-auto w-32 h-32 mb-10 shadow-lg hover:scale-105 transition-transform duration-300"/>
     <p class="text-4xl md:text-5xl font-bold">
         CZSSPC
     </p>

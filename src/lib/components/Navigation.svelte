@@ -1,11 +1,12 @@
 <script lang="ts">
     let mobileMenuOpen = false;
+    import { base } from '$app/paths';
 </script>
 
 <div class="text-center font-bold p-4 mb-6 m-4">
     <div class="flex justify-between items-center text-white">
         <p>
-            <img class="rounded inline h-10 w-10 mr-2" src="/logo.svg" alt="CZSSPC Logo"/>
+            <img class="rounded inline h-10 w-10 mr-2" src="{base}/logo.svg" alt="CZSSPC Logo"/>
             CZSSPC
         </p>
         <nav class="hidden md:block">
