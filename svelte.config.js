@@ -7,11 +7,13 @@ const config = {
 
 	kit: {
 		adapter: adapter({
-			fallback: '404.html',
-			strict: false
+			fallback: '404.html'
 		}),
 		paths: {
 			base: process.argv.includes('dev') ? '' : '/czsspc.github.io'
+		},
+		prerender: {
+			handleHttpError: 'warn'
 		}
 	}
 };
